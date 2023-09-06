@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task_5</title>
+</head>
+<body>
+    <center>
+        <h2>Registration Form</h2>
+        <table border="1">
+            <tr>
+                <td><label for="firstname" size="0">First Name:</label></td>
+                <td><input type="text" id="firstname" placeholder="First Name" size="50"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="lastname" >Last Name:</label></td>
+                <td><input type="text" id="lastname" placeholder="Last Name" size="50"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" size="50" placeholder="Email"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" placeholder="Password" size="50"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">Re Password:</label></td>
+                <td><input type="password" id="repassword" placeholder="Re Password" size="50"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td><input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br />
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br />
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age:</label> </td>
+                <td><input type="number" id="age" width="50" placeholder="Age"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label> </td>
+                <td><input type="number" id="phone" size="50" placeholder="Phone"><br /></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label> </td>
+                <td><textarea id="address" size="60" rows="4" cols="47" placeholder="Address"></textarea></tr>
+            </tr>
+            <tr>
+                <td><label for="state">State:</label></td>
+                <td><input type="text" id="state" size="50" placeholder="State"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country:</label></td>
+                <td><label for="country">Choose your country</label>
+                    <select id="country">
+                    <option id="India" value="India">India</option><!--same for all states-->
+                    <option>China</option>
+                    <option>Pakistan</option>
+                    <option>Sri Lanka</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="language">Choose Language: </label> </td>
+                <td><input type="checkbox" id="Kannada" value="Kannada" />
+                    <label for="Kannada">Kannada</label>
+                    <input type="checkbox" id="English" value="English" />
+                    <label for="English">English</label>
+                    <input type="checkbox" id="Telugu" value="Telugu" />
+                    <label for="Telugu">Telugu</label>
+                    <input type="checkbox" id="Hindi" value="Hindi" />
+                    <label for="Hindi">Hindi</label></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="true">
+                <label for="true">Hereby I declare all the given details are true</label></td>
+            </tr>
+            <tr>
+                <td colspan="2" ><label>Log in to <a href="https://www.google.com" target="blank">Ethnus</a> website</label></td>
+            </tr>
+
+        </table><br />
+        <button type="submit">Register</button>
+    </center>
+</body>
+</html>
